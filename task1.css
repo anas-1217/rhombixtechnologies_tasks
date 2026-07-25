@@ -12,7 +12,6 @@ body{
     line-height:1.6;
 }
 
-/* Header */
 
 header{
     background:linear-gradient(135deg,#1f4e79,#2980b9);
@@ -30,7 +29,6 @@ header p{
     font-size:18px;
 }
 
-/* Navigation */
 
 nav{
     background:#fff;
@@ -59,7 +57,6 @@ nav a:hover{
     color:white;
 }
 
-/* Sections */
 
 section{
     width:85%;
@@ -97,7 +94,6 @@ li{
     margin:8px 0;
 }
 
-/* Project Cards */
 
 .card{
     background:#f8f9fa;
@@ -113,7 +109,6 @@ li{
     box-shadow:0 6px 18px rgba(0,0,0,.15);
 }
 
-/* Skills */
 
 #skills ul{
     display:flex;
@@ -136,7 +131,6 @@ li{
     transform:scale(1.08);
 }
 
-/* Links */
 
 a{
     color:#2980b9;
@@ -146,7 +140,6 @@ a:hover{
     color:#1f4e79;
 }
 
-/* Footer */
 
 footer{
     background:#1f4e79;
@@ -156,7 +149,6 @@ footer{
     margin-top:40px;
 }
 
-/* Responsive */
 
 @media(max-width:768px){
 
