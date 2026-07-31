@@ -1,0 +1,107 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background:linear-gradient(135deg,#4F46E5,#7C3AED);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+}
+
+.container{
+    width:450px;
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.2);
+}
+
+h1{
+    text-align:center;
+    color:#4F46E5;
+    margin-bottom:8px;
+}
+
+.subtitle{
+    text-align:center;
+    color:#777;
+    margin-bottom:25px;
+}
+
+.input-section{
+    display:flex;
+    gap:10px;
+    margin-bottom:20px;
+}
+
+input{
+    flex:1;
+    padding:12px;
+    border:2px solid #ddd;
+    border-radius:8px;
+    font-size:16px;
+    outline:none;
+    transition:0.3s;
+}
+
+input:focus{
+    border-color:#4F46E5;
+}
+
+button{
+    border:none;
+    padding:12px 18px;
+    border-radius:8px;
+    cursor:pointer;
+    font-size:15px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+#addButton{
+    background:#4F46E5;
+    color:white;
+}
+
+#addButton:hover{
+    background:#3730A3;
+}
+
+li{
+    list-style:none;
+    background:#F3F4F6;
+    padding:12px 15px;
+    margin-bottom:10px;
+    border-radius:8px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+li button{
+    margin-left:8px;
+    padding:7px 12px;
+    border-radius:6px;
+    color:white;
+}
+
+#deleteButton{
+    background:#F59E0B;
+}
+
+#deleteButton:hover{
+    background:#D97706;
+}
+
+#editButton{
+    background:#EF4444;
+}
+
+#editButton:hover{
+    background:#B91C1C;
+}
